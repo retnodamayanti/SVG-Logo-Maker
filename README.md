@@ -22,6 +22,7 @@ Please visit a video demonstrating the application [here](https://drive.google.c
 ![command_line_app](./images/image_1.png)
 
 2. Screenshot below shows the generated logo.svg file
+
   ![generated_svg](./images/image_2.png)
 
 ## Credit
