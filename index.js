@@ -1,14 +1,10 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const { Shape, Triangle, Circle, Square } = require('./lib/shapes');
+const questions = require('./lib/questions');
 
 async function createLogo() {
-  const answers = await inquirer.prompt([
-    { name: 'text', message: 'Enter text (up to 3 characters): ' },
-    { name: 'textColor', message: 'Enter text color: ' },
-    { name: 'shapeType', message: 'Enter shape (circle, triangle, square): ' },
-    { name: 'shapeColor', message: 'Enter shape color: ' },
-  ]);
+  const answers = await inquirer.prompt(questions);
 
   let shape;
   switch (answers.shapeType.toLowerCase()) {
