@@ -3,7 +3,7 @@
 ## Description
 
 This application was built using command-line application using Node.js that generates a `.svg` file based on the user input. The user will be prompted to enter a color, shape and provide text for the logo then `logo.svg` file will be generated.
-Please visit a video demonstrating the application [here]().
+Please visit a video demonstrating the application [here](https://drive.google.com/file/d/13T55JAO_xy7RKbkyilCwBuYY7X3yY_ek/view?usp=sharing).
 
 ## Table of Contents
 - [Installation](#installation)
